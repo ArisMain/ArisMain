@@ -1,0 +1,118 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat Alternates', sans-serif;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	height: 100vh;
+	background-image: url(../img/src_bg.png);
+	background-size: cover;
+}
+
+.wrap{
+	max-width: 1080px;
+	min-width: 320px;
+	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: border-box;
+
+}
+
+/*стли для header*/
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #2B3035;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 20%;
+	box-shadow: 3px 3px 67px #000;
+}
+
+header .logo{
+	font-size: 37px;
+	font-weight: 700;
+	color: #fff;
+	transition: .3s;
+	text-shadow: 3px 3px 3px #000;
+}
+
+header .logo:hover{
+	transform: scale(1.1);
+}	
+
+header nav ul li{
+	position: relative;
+	float: left;
+	text-shadow: 3px 3px 3px #000;
+}
+
+header nav ul li a{
+	padding: 15px;
+	color: #fff;
+	font-size: 21px;
+	display: block;
+}
+
+header nav ul li a:hover{
+	color: #A109FF;
+}
+
+nav ul li ul{
+	position: absolute;
+	left: 0;
+	width: 145px;
+	background: #2B3035;
+	display: none;
+	border-radius: 9px;
+}
+
+nav ul li ul li{
+	width: 100%;
+}
+
+nav ul li:hover > ul{
+	display: initial;
+}
+
+/* Стили для Текста*/
+
+.sorry{
+	color: #FF008A;
+	text-align: center;
+	max-width: 1080px;
+	min-width: 320px;
+	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.sorry_title{
+	font-weight: 700;
+	font-size: 4.7rem;
+	text-shadow: 3px 3px 3px #000;
+	margin: 20px;
+}
+
+.sorry_subtitle{
+	font-weight: 700;
+	font-size: 3.1rem;
+	color: #fff;
+	text-shadow: 3px 3px 3px #000;
+	margin: ;
+}
+
+.txt{
+	padding:150px;
+	font-weight: 700;
+	font-size: 1.5rem;
+	text-shadow: 3px 3px 3px #000;
+	color: #fff;
+}
